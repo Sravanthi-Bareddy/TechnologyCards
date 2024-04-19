@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.card-item {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  max-width: 323px;
+  list-style-type: none;
+}
+.main-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  margin: 10px;
+}
+.main-description {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: none;
+  margin: 10px;
+}
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+.card-container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  height: 60%;
+}
+.card-heading {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding: 5px;
+}
+.card-description {
+  font-size: 18px;
+  font-weight: none;
+  font-family: 'Roboto';
+  padding: 2px;
+}
+.profile-logo {
+  display: flex;
+  justify-content: end;
+  height: 32px;
+  width: 32px;
+}
